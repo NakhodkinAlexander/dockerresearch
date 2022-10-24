@@ -2,3 +2,10 @@ version: '3'
 services:
   back:
     build: ./
+    volumes:
+      - ./node_modules:/node_modules
+      - ./package.json:/package.json
+      - ./tsconfig.json:/tsconfig.json
+    ports:
+      - 3000:3000
+    command: yarn ts-node ./output/index.js
