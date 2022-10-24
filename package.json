@@ -1,4 +1,7 @@
 {
     "name": "my-program",
-    "version": "0.1.0"
-  }
+    "version": "0.1.0",
+    "dependencies": {
+        "mongodb": "^4.11.0"
+    }
+}
