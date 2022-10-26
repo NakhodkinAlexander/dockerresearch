@@ -9,3 +9,5 @@ services:
     ports:
       - 3000:3000
     command: yarn ts-node ./app/index.ts
+  mongo: 
+    image: mongo
