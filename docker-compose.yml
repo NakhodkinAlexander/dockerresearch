@@ -8,6 +8,7 @@ services:
     #   - ./tsconfig.json:/tsconfig.json
     ports:
       - 3000:3000
-    command: yarn ts-node ./app/index.ts
+    # command: yarn ts-node ./app/index.ts
+    command: yarn node ./output/index.js
   mongo: 
     image: mongo
