@@ -2,7 +2,7 @@ FROM node
 
 ENV NODE_ENV=production
 
-WORKDIR /app
+WORKDIR /back-end
 
 
 COPY . .
